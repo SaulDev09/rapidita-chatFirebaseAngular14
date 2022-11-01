@@ -1,4 +1,7 @@
 # Chat de Firebase con Angular 14
+
+![Screen Shot 2022-11-01 at 19 54 10](https://user-images.githubusercontent.com/54446713/199315193-2fa7c67c-a1ba-4b9f-952f-5ffc1a2041c0.png)
+
 ## Parte 1. Firebase
 1. Buscar google firebase console
 2. Login con tu cuenta de google
