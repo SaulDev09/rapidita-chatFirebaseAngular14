@@ -1,27 +1,50 @@
-# RapChat
+# Chat de Firebase con Angular 14
+## Parte 1. Firebase
+1. Buscar google firebase console
+2. Login con tu cuenta de google
+3. Create Project o Add Project
+4. Nombre de proyecto, continue
+5. No es necesario Google Analytics y Create Project
+6. Continue
+7. Proyecto creado
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Parte 2. Firebase Crear proyecto
+1. Clic en el ícono de Web
+2. Escribir el nombre del proyecto y Register app
+3. Copia el objeto firebaseConfig en un block de notas (luego se usará) y Continue to console
 
-## Development server
+## Parte 3. Firebase Configurar Cloud Firestore
+1. Clic en Build > Firestore Database > Create database > test mode (la fecha expira en un mes) - Next > Enable
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Parte 4. Código - Create proyecto:
+1. ng new rapChat 
+2. routing -> no 
+3. type -> scss
+4. cd rapChat
+5. code .
 
-## Code scaffolding
+## Parte 5. Código - Instalar Librerias y generar componentes:
+1. npm i @angular/fire@7.4.1
+2. npm i firebase@9.12.1
+3. npm i uuid@9.0.0
+4. ng g s services/chat --skip-tests 
+5. ng g c components/chat --style none --skip-tests 
+6. ng g c components/login --style none --skip-tests 
+7. cd src/app
+8. mkdir model
+9. touch model/message.model.ts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Parte 6: Orden de modificación de archivos:
+1. index.html
+2. styles.scss
+3. environment.ts
+4. environment.prod.ts
+5. app.module.ts
+6. message.model.ts
+7. chat.service.ts
+8. login.component.ts
+9. login.component.html
+10. chat.component.ts
+11. chat.component.html
+12. app.component.ts
+13. app.component.html
