@@ -51,3 +51,9 @@
 11. chat.component.html
 12. app.component.ts
 13. app.component.html
+
+Demo [here](https://codesandbox.io/p/github/SaulDev09/rapidita-chatFirebaseAngular14/draft/objective-wind?file=%2FREADME.md&workspace=%257B%2522activeFileId%2522%253A%2522cl9ykqg8b000wlrht2pq79phu%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522sidekickItems%2522%253A%255B%257B%2522key%2522%253A%2522cl9yl5g25000i3b6gnlgmz74g%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%252C%2522isMinimized%2522%253Atrue%257D%252C%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A4200%252C%2522key%2522%253A%2522cl9yl5wzj005c3b6g2ll9jwg6%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522key%2522%253A%2522cl9ykrnvf005v3b6h3vb2zr5h%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D)
+
+No usar modo incógnito porque bloquea al SessionStorage
+![Screen Shot 2022-11-01 at 20 19 31](https://user-images.githubusercontent.com/54446713/199319986-d6e7b1bc-cafe-4676-9d21-89ed59a0252f.png)
+
